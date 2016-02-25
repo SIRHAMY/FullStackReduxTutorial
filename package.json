@@ -1,0 +1,30 @@
+{
+  "name": "fullstackreduxtutorialserver",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "npm run test -- --watch",
+  },
+  "babel": {
+    "presets": ["es2015"],
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIRHAMY/FullStackReduxTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SIRHAMY/FullStackReduxTutorial/issues"
+  },
+  "homepage": "https://github.com/SIRHAMY/FullStackReduxTutorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
